@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(231, 208, 227);
+    font-family: 'Lato', sans-serif;
+    padding: 30px 10%;
+}
+
+button {
+    border: 0;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+button:hover{
+    opacity: 80%;
+    transform:scale(1.05);
+}
+
+nav {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+nav h1{
+    font-size: 1rem !important;
+
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    flex: 1;
+    justify-content: space-around;
+}
+
+
+li {
+    text-transform: uppercase;
+}
+
+.botaopreenchido {
+    background-color: darkorange;
+    color: white;
+    margin: 0 10px;
+}
+
+img {
+    width: 50%;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.destaque{
+    color: darkorange;
+}
+
+h1{
+   font-size: 4rem; 
+   margin-bottom: 1rem;
+}
+
+.texto{
+    color: rgb(73, 71, 71);
+    margin-bottom: 1rem;
+}
+
+.botaoplayvideo{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.icone{
+    font-size: 22px;
+    margin-right: 7px;
+    border-color: black;
+}
+
+.download{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    text-align: center;
+    width: 170px;
+    padding: 10px 15px;
+}
+
+.cardapio{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 280px;
+    height: 200px;
+    padding: 15px 20px;
+}
+
+.estrela{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 2px 8rem;
+
+}
+
+.avaliacao{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 2px 2rem;
+    width: 50px;    
+}
+
+.cardapionav {
+    display: inline-block;
+    text-align: center;
+}
+
+.estrelas input[type=radio] {
+    display: none;
+    
+  }
+  .estrelas label i.fa:before {
+    content:'\f005';
+    color: #FC0;
+  }
+  .estrelas input[type=radio]:checked ~ label i.fa:before {
+    color: #CCC;
+  }
